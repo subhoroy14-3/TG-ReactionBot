@@ -1,10 +1,10 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TG_API_ID", 1234))
-    API_HASH = env.get("TG_API_HASH", "xyz")
-    BOT_TOKEN = env.get("TG_BOT_TOKEN", "abc")
-    BOT_USERNAME = env.get("TG_BOT_USERNAME", "DrReactBot")
+    API_ID = int(env.get("24169895", 1234))
+    API_HASH = env.get("8048db204b2eb17aedd0582cc50058d1", "xyz")
+    BOT_TOKEN = env.get("7363542366:AAFPBryxIOJlnhNqrp8t-sfso9eUmNKTPNw", "abc")
+    BOT_USERNAME = env.get("Nano_musicbot", "Nano_musicbot")
     EMOJIS = [
         "👍", "👎", "❤", "🔥", 
         "🥰", "👏", "😁", "🤔",
@@ -57,3 +57,4 @@ LOGGER_CONFIG_JSON = {
         }
     }
 }
+
